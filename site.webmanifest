@@ -1,0 +1,17 @@
+{
+  "name": "Cliom Climatização e Refrigeração",
+  "short_name": "Cliom",
+  "description": "Climatização, refrigeração e ar-condicionado em Lajeado - RS e em toda a região Sul.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#062028",
+  "theme_color": "#062028",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
