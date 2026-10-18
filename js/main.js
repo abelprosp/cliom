@@ -61,12 +61,13 @@
     event.preventDefault();
     const data = new FormData(form);
     const texto = [
-      "Olá, Cliom. Gostaria de um orçamento.",
+      "Olá, Cliom. Quero uma visita técnica.",
       `Nome: ${data.get("nome") || ""}`,
       `Telefone: ${data.get("telefone") || ""}`,
       `Cidade: ${data.get("cidade") || ""}`,
-      `Serviço: ${data.get("servico") || ""}`,
-      `Mensagem: ${data.get("mensagem") || ""}`,
+      `O que precisa: ${data.get("servico") || ""}`,
+      `Ambiente: ${data.get("mensagem") || ""}`,
+      "Posso mandar foto do ambiente nesta conversa.",
     ].join("\n");
     window.open(`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(texto)}`, "_blank");
   });
